@@ -97,7 +97,8 @@
     <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
-        android:summary="@string/tap_to_wake_summary" />
+        android:summary="@string/tap_to_wake_summary"
+        android:defaultValue="false" />
 
     <com.mrapocalypse.screwdshop.prefs.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
